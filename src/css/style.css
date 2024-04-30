@@ -240,41 +240,6 @@
  a:not([href]):not([tabindex]):focus {
    outline: 0;
  }
-
-.container-adarsh{
-  color: white;
-}
-.container-adarsh * {
-  color: inherit;
-  /* or specify another color */
-}
-
-.adarsh .container {
-  display: flex;
-  flex-direction: row;
-}
-
-.adarsh .image {
-  flex: 1;
-}
-
-.adarsh .content {
-  flex: 2;
-  padding: 20px;
-}
-
-.adarsh .content ul {
-  list-style-type: disc;
-  /* Use disc bullets for unordered list */
-  padding-left: 20px;
-  /* Adjust padding for indentation */
-}
-
-.adarsh .content ul li {
-  margin-bottom: 10px;
-  /* Adjust spacing between list items */
-}
-
  
  pre,
  code,
