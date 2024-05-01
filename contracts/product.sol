@@ -30,7 +30,7 @@ contract product {
     mapping(bytes32=>bytes32) public productsManufactured;
     mapping(bytes32=>bytes32) public productsForSale;
     mapping(bytes32=>bytes32) public productsSold;
-    mapping(bytes32=>bytes32[]) public productsWithSeller;
+    mapping(bytes32=>bytes32[]) public productsWithSeller; 
     mapping(bytes32=>bytes32[]) public productsWithConsumer;
     mapping(bytes32=>bytes32[]) public sellersWithManufacturer;
 
